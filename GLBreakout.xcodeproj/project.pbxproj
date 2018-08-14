@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B14A8CF21080E2100C20BF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8CE21080E2100C20BF5 /* AppDelegate.m */; };
+		3B14A8D221080E2100C20BF5 /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8D121080E2100C20BF5 /* BCViewController.m */; };
+		3B14A8DA21080E2200C20BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8D921080E2200C20BF5 /* main.m */; };
+		3B14A8E42108100F00C20BF5 /* BCShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8E32108100F00C20BF5 /* BCShader.m */; };
+		3B14A8E72108148A00C20BF5 /* BCTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8E62108148A00C20BF5 /* BCTexture2D.m */; };
+		3B14A8EB21081B6E00C20BF5 /* BCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8EA21081B6E00C20BF5 /* BCGame.m */; };
+		3B14A8EE2108205500C20BF5 /* BCResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8ED2108205500C20BF5 /* BCResourceManager.m */; };
+		3B14A8F121084F3000C20BF5 /* BCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14A8F021084F3000C20BF5 /* BCGLView.m */; };
+		3B9A029C21144E1200B72A1D /* BCBallObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A029B21144E1200B72A1D /* BCBallObject.m */; };
+		3B9A02A02115924800B72A1D /* BCParticleGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A029F2115924800B72A1D /* BCParticleGenerator.m */; };
+		3B9A02A32115957400B72A1D /* BCParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A02A22115957400B72A1D /* BCParticle.m */; };
+		3B9BA1C6211AEC5100A188F0 /* BCPostProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BA1C5211AEC5100A188F0 /* BCPostProcessor.m */; };
+		3B9BA1D9211E92BE00A188F0 /* BCPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BA1D8211E92BE00A188F0 /* BCPowerUp.m */; };
+		3B9BA1DC211EF31100A188F0 /* BCGameAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BA1DB211EF31100A188F0 /* BCGameAudioPlayer.m */; };
+		3BA7379621215C0F00CC1607 /* BCTextRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7379521215C0F00CC1607 /* BCTextRenderer.m */; };
+		3BA7379921215D8600CC1607 /* BCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7379821215D8600CC1607 /* BCCharacter.m */; };
+		3BA7379B21227DFC00CC1607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA7379A21227DFB00CC1607 /* Images.xcassets */; };
+		3BCFDF3421130545000DD1EB /* BCSpriteRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFDF3321130545000DD1EB /* BCSpriteRenderer.m */; };
+		3BCFDF37211338E1000DD1EB /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 3BCFDF36211338E1000DD1EB /* Resources */; };
+		3BCFDF3A2113E812000DD1EB /* BCGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFDF392113E812000DD1EB /* BCGameObject.m */; };
+		3BE2F9402113F19D00013E98 /* BCGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2F93F2113F19D00013E98 /* BCGameLevel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B14A8CA21080E2100C20BF5 /* GLBreakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLBreakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14A8CD21080E2100C20BF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B14A8CE21080E2100C20BF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B14A8D021080E2100C20BF5 /* BCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCViewController.h; sourceTree = "<group>"; };
+		3B14A8D121080E2100C20BF5 /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
+		3B14A8D821080E2200C20BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B14A8D921080E2200C20BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B14A8DB21080E2200C20BF5 /* GLBreakout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GLBreakout.entitlements; sourceTree = "<group>"; };
+		3B14A8E22108100F00C20BF5 /* BCShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCShader.h; sourceTree = "<group>"; };
+		3B14A8E32108100F00C20BF5 /* BCShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCShader.m; sourceTree = "<group>"; };
+		3B14A8E52108148A00C20BF5 /* BCTexture2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCTexture2D.h; sourceTree = "<group>"; };
+		3B14A8E62108148A00C20BF5 /* BCTexture2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCTexture2D.m; sourceTree = "<group>"; };
+		3B14A8E921081B6E00C20BF5 /* BCGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGame.h; sourceTree = "<group>"; };
+		3B14A8EA21081B6E00C20BF5 /* BCGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGame.m; sourceTree = "<group>"; };
+		3B14A8EC2108205500C20BF5 /* BCResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCResourceManager.h; sourceTree = "<group>"; };
+		3B14A8ED2108205500C20BF5 /* BCResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCResourceManager.m; sourceTree = "<group>"; };
+		3B14A8EF21084F3000C20BF5 /* BCGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGLView.h; sourceTree = "<group>"; };
+		3B14A8F021084F3000C20BF5 /* BCGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGLView.m; sourceTree = "<group>"; };
+		3B9A029A21144E1200B72A1D /* BCBallObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCBallObject.h; sourceTree = "<group>"; };
+		3B9A029B21144E1200B72A1D /* BCBallObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCBallObject.m; sourceTree = "<group>"; };
+		3B9A029E2115924800B72A1D /* BCParticleGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCParticleGenerator.h; sourceTree = "<group>"; };
+		3B9A029F2115924800B72A1D /* BCParticleGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCParticleGenerator.m; sourceTree = "<group>"; };
+		3B9A02A12115957400B72A1D /* BCParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCParticle.h; sourceTree = "<group>"; };
+		3B9A02A22115957400B72A1D /* BCParticle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCParticle.m; sourceTree = "<group>"; };
+		3B9BA1C4211AEC5100A188F0 /* BCPostProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPostProcessor.h; sourceTree = "<group>"; };
+		3B9BA1C5211AEC5100A188F0 /* BCPostProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPostProcessor.m; sourceTree = "<group>"; };
+		3B9BA1D7211E92BE00A188F0 /* BCPowerUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCPowerUp.h; sourceTree = "<group>"; };
+		3B9BA1D8211E92BE00A188F0 /* BCPowerUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCPowerUp.m; sourceTree = "<group>"; };
+		3B9BA1DA211EF31100A188F0 /* BCGameAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGameAudioPlayer.h; sourceTree = "<group>"; };
+		3B9BA1DB211EF31100A188F0 /* BCGameAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGameAudioPlayer.m; sourceTree = "<group>"; };
+		3BA7379421215C0F00CC1607 /* BCTextRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCTextRenderer.h; sourceTree = "<group>"; };
+		3BA7379521215C0F00CC1607 /* BCTextRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCTextRenderer.m; sourceTree = "<group>"; };
+		3BA7379721215D8600CC1607 /* BCCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCharacter.h; sourceTree = "<group>"; };
+		3BA7379821215D8600CC1607 /* BCCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCharacter.m; sourceTree = "<group>"; };
+		3BA7379A21227DFB00CC1607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BCFDF3221130545000DD1EB /* BCSpriteRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCSpriteRenderer.h; sourceTree = "<group>"; };
+		3BCFDF3321130545000DD1EB /* BCSpriteRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCSpriteRenderer.m; sourceTree = "<group>"; };
+		3BCFDF36211338E1000DD1EB /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		3BCFDF382113E812000DD1EB /* BCGameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGameObject.h; sourceTree = "<group>"; };
+		3BCFDF392113E812000DD1EB /* BCGameObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGameObject.m; sourceTree = "<group>"; };
+		3BE2F93E2113F19D00013E98 /* BCGameLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGameLevel.h; sourceTree = "<group>"; };
+		3BE2F93F2113F19D00013E98 /* BCGameLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGameLevel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B14A8C721080E2100C20BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B14A8C121080E2100C20BF5 = {
+			isa = PBXGroup;
+			children = (
+				3B14A8CC21080E2100C20BF5 /* GLBreakout */,
+				3B14A8CB21080E2100C20BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B14A8CB21080E2100C20BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B14A8CA21080E2100C20BF5 /* GLBreakout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B14A8CC21080E2100C20BF5 /* GLBreakout */ = {
+			isa = PBXGroup;
+			children = (
+				3BCFDF36211338E1000DD1EB /* Resources */,
+				3B14A8F221084F4300C20BF5 /* support file */,
+				3B14A8E821081B5D00C20BF5 /* BCGameUtility */,
+				3B14A8E12108100F00C20BF5 /* BCGLUtility */,
+				3B14A8CD21080E2100C20BF5 /* AppDelegate.h */,
+				3B14A8CE21080E2100C20BF5 /* AppDelegate.m */,
+				3B14A8D021080E2100C20BF5 /* BCViewController.h */,
+				3B14A8D121080E2100C20BF5 /* BCViewController.m */,
+				3B14A8EF21084F3000C20BF5 /* BCGLView.h */,
+				3B14A8F021084F3000C20BF5 /* BCGLView.m */,
+			);
+			path = GLBreakout;
+			sourceTree = "<group>";
+		};
+		3B14A8E12108100F00C20BF5 /* BCGLUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3B14A8E22108100F00C20BF5 /* BCShader.h */,
+				3B14A8E32108100F00C20BF5 /* BCShader.m */,
+				3B14A8E52108148A00C20BF5 /* BCTexture2D.h */,
+				3B14A8E62108148A00C20BF5 /* BCTexture2D.m */,
+				3BCFDF3221130545000DD1EB /* BCSpriteRenderer.h */,
+				3BCFDF3321130545000DD1EB /* BCSpriteRenderer.m */,
+				3BA7379421215C0F00CC1607 /* BCTextRenderer.h */,
+				3BA7379521215C0F00CC1607 /* BCTextRenderer.m */,
+				3BA7379721215D8600CC1607 /* BCCharacter.h */,
+				3BA7379821215D8600CC1607 /* BCCharacter.m */,
+			);
+			path = BCGLUtility;
+			sourceTree = "<group>";
+		};
+		3B14A8E821081B5D00C20BF5 /* BCGameUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3B14A8E921081B6E00C20BF5 /* BCGame.h */,
+				3B14A8EA21081B6E00C20BF5 /* BCGame.m */,
+				3B14A8EC2108205500C20BF5 /* BCResourceManager.h */,
+				3B14A8ED2108205500C20BF5 /* BCResourceManager.m */,
+				3BCFDF382113E812000DD1EB /* BCGameObject.h */,
+				3BCFDF392113E812000DD1EB /* BCGameObject.m */,
+				3BE2F93E2113F19D00013E98 /* BCGameLevel.h */,
+				3BE2F93F2113F19D00013E98 /* BCGameLevel.m */,
+				3B9A029A21144E1200B72A1D /* BCBallObject.h */,
+				3B9A029B21144E1200B72A1D /* BCBallObject.m */,
+				3B9A029E2115924800B72A1D /* BCParticleGenerator.h */,
+				3B9A029F2115924800B72A1D /* BCParticleGenerator.m */,
+				3B9A02A12115957400B72A1D /* BCParticle.h */,
+				3B9A02A22115957400B72A1D /* BCParticle.m */,
+				3B9BA1C4211AEC5100A188F0 /* BCPostProcessor.h */,
+				3B9BA1C5211AEC5100A188F0 /* BCPostProcessor.m */,
+				3B9BA1D7211E92BE00A188F0 /* BCPowerUp.h */,
+				3B9BA1D8211E92BE00A188F0 /* BCPowerUp.m */,
+				3B9BA1DA211EF31100A188F0 /* BCGameAudioPlayer.h */,
+				3B9BA1DB211EF31100A188F0 /* BCGameAudioPlayer.m */,
+			);
+			path = BCGameUtility;
+			sourceTree = "<group>";
+		};
+		3B14A8F221084F4300C20BF5 /* support file */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7379A21227DFB00CC1607 /* Images.xcassets */,
+				3B14A8D821080E2200C20BF5 /* Info.plist */,
+				3B14A8D921080E2200C20BF5 /* main.m */,
+				3B14A8DB21080E2200C20BF5 /* GLBreakout.entitlements */,
+			);
+			name = "support file";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B14A8C921080E2100C20BF5 /* GLBreakout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14A8DE21080E2200C20BF5 /* Build configuration list for PBXNativeTarget "GLBreakout" */;
+			buildPhases = (
+				3B14A8C621080E2100C20BF5 /* Sources */,
+				3B14A8C721080E2100C20BF5 /* Frameworks */,
+				3B14A8C821080E2100C20BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLBreakout;
+			productName = GLBreakout;
+			productReference = 3B14A8CA21080E2100C20BF5 /* GLBreakout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B14A8C221080E2100C20BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BrianChen;
+				TargetAttributes = {
+					3B14A8C921080E2100C20BF5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3B14A8C521080E2100C20BF5 /* Build configuration list for PBXProject "GLBreakout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B14A8C121080E2100C20BF5;
+			productRefGroup = 3B14A8CB21080E2100C20BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B14A8C921080E2100C20BF5 /* GLBreakout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B14A8C821080E2100C20BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA7379B21227DFC00CC1607 /* Images.xcassets in Resources */,
+				3BCFDF37211338E1000DD1EB /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B14A8C621080E2100C20BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA7379621215C0F00CC1607 /* BCTextRenderer.m in Sources */,
+				3B9A029C21144E1200B72A1D /* BCBallObject.m in Sources */,
+				3B9A02A02115924800B72A1D /* BCParticleGenerator.m in Sources */,
+				3B14A8F121084F3000C20BF5 /* BCGLView.m in Sources */,
+				3B14A8D221080E2100C20BF5 /* BCViewController.m in Sources */,
+				3B9A02A32115957400B72A1D /* BCParticle.m in Sources */,
+				3B14A8EE2108205500C20BF5 /* BCResourceManager.m in Sources */,
+				3B9BA1DC211EF31100A188F0 /* BCGameAudioPlayer.m in Sources */,
+				3B14A8DA21080E2200C20BF5 /* main.m in Sources */,
+				3BE2F9402113F19D00013E98 /* BCGameLevel.m in Sources */,
+				3B14A8E72108148A00C20BF5 /* BCTexture2D.m in Sources */,
+				3B14A8EB21081B6E00C20BF5 /* BCGame.m in Sources */,
+				3B14A8E42108100F00C20BF5 /* BCShader.m in Sources */,
+				3BA7379921215D8600CC1607 /* BCCharacter.m in Sources */,
+				3B9BA1C6211AEC5100A188F0 /* BCPostProcessor.m in Sources */,
+				3BCFDF3A2113E812000DD1EB /* BCGameObject.m in Sources */,
+				3B9BA1D9211E92BE00A188F0 /* BCPowerUp.m in Sources */,
+				3BCFDF3421130545000DD1EB /* BCSpriteRenderer.m in Sources */,
+				3B14A8CF21080E2100C20BF5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B14A8DC21080E2200C20BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B14A8DD21080E2200C20BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B14A8DF21080E2200C20BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GLBreakout/GLBreakout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/freetype2";
+				INFOPLIST_FILE = GLBreakout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
+				OTHER_LDFLAGS = "-lfreetype";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.inc.GLBreakout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B14A8E021080E2200C20BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GLBreakout/GLBreakout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/freetype2";
+				INFOPLIST_FILE = GLBreakout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
+				OTHER_LDFLAGS = "-lfreetype";
+				PRODUCT_BUNDLE_IDENTIFIER = YY.inc.GLBreakout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B14A8C521080E2100C20BF5 /* Build configuration list for PBXProject "GLBreakout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14A8DC21080E2200C20BF5 /* Debug */,
+				3B14A8DD21080E2200C20BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14A8DE21080E2200C20BF5 /* Build configuration list for PBXNativeTarget "GLBreakout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14A8DF21080E2200C20BF5 /* Debug */,
+				3B14A8E021080E2200C20BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B14A8C221080E2100C20BF5 /* Project object */;
+}
