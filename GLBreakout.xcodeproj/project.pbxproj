@@ -24,11 +24,27 @@
 		3BA7379621215C0F00CC1607 /* BCTextRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7379521215C0F00CC1607 /* BCTextRenderer.m */; };
 		3BA7379921215D8600CC1607 /* BCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7379821215D8600CC1607 /* BCCharacter.m */; };
 		3BA7379B21227DFC00CC1607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA7379A21227DFB00CC1607 /* Images.xcassets */; };
+		3BA737A82123D3EA00CC1607 /* libfreetype.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BA7379D2123BF2600CC1607 /* libfreetype.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3BA737A92123D3FE00CC1607 /* libpng16.16.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BA737A52123D33100CC1607 /* libpng16.16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3BCFDF3421130545000DD1EB /* BCSpriteRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFDF3321130545000DD1EB /* BCSpriteRenderer.m */; };
 		3BCFDF37211338E1000DD1EB /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 3BCFDF36211338E1000DD1EB /* Resources */; };
 		3BCFDF3A2113E812000DD1EB /* BCGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFDF392113E812000DD1EB /* BCGameObject.m */; };
 		3BE2F9402113F19D00013E98 /* BCGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2F93F2113F19D00013E98 /* BCGameLevel.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA737A22123CEF400CC1607 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BA737A92123D3FE00CC1607 /* libpng16.16.dylib in CopyFiles */,
+				3BA737A82123D3EA00CC1607 /* libfreetype.6.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B14A8CA21080E2100C20BF5 /* GLBreakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLBreakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +82,8 @@
 		3BA7379721215D8600CC1607 /* BCCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCharacter.h; sourceTree = "<group>"; };
 		3BA7379821215D8600CC1607 /* BCCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCharacter.m; sourceTree = "<group>"; };
 		3BA7379A21227DFB00CC1607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BA7379D2123BF2600CC1607 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfreetype.6.dylib; sourceTree = "<group>"; };
+		3BA737A52123D33100CC1607 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpng16.16.dylib; sourceTree = "<group>"; };
 		3BCFDF3221130545000DD1EB /* BCSpriteRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCSpriteRenderer.h; sourceTree = "<group>"; };
 		3BCFDF3321130545000DD1EB /* BCSpriteRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCSpriteRenderer.m; sourceTree = "<group>"; };
 		3BCFDF36211338E1000DD1EB /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
@@ -74,16 +92,6 @@
 		3BE2F93E2113F19D00013E98 /* BCGameLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCGameLevel.h; sourceTree = "<group>"; };
 		3BE2F93F2113F19D00013E98 /* BCGameLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGameLevel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		3B14A8C721080E2100C20BF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3B14A8C121080E2100C20BF5 = {
@@ -105,6 +113,7 @@
 		3B14A8CC21080E2100C20BF5 /* GLBreakout */ = {
 			isa = PBXGroup;
 			children = (
+				3BA7379F2123BF4800CC1607 /* Library */,
 				3BCFDF36211338E1000DD1EB /* Resources */,
 				3B14A8F221084F4300C20BF5 /* support file */,
 				3B14A8E821081B5D00C20BF5 /* BCGameUtility */,
@@ -174,6 +183,15 @@
 			name = "support file";
 			sourceTree = "<group>";
 		};
+		3BA7379F2123BF4800CC1607 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3BA737A52123D33100CC1607 /* libpng16.16.dylib */,
+				3BA7379D2123BF2600CC1607 /* libfreetype.6.dylib */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,8 +200,9 @@
 			buildConfigurationList = 3B14A8DE21080E2200C20BF5 /* Build configuration list for PBXNativeTarget "GLBreakout" */;
 			buildPhases = (
 				3B14A8C621080E2100C20BF5 /* Sources */,
-				3B14A8C721080E2100C20BF5 /* Frameworks */,
 				3B14A8C821080E2100C20BF5 /* Resources */,
+				3BA737A22123CEF400CC1607 /* CopyFiles */,
+				3BA737A42123CF1500CC1607 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -238,6 +257,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA737A42123CF1500CC1607 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -change /usr/local/opt/freetype/lib/libfreetype.6.dylib @rpath/libfreetype.6.dylib $TARGET_BUILD_DIR/$EXECUTABLE_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B14A8C621080E2100C20BF5 /* Sources */ = {
@@ -391,7 +426,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/GLBreakout/Library",
+				);
 				OTHER_LDFLAGS = "-lfreetype";
 				PRODUCT_BUNDLE_IDENTIFIER = YY.inc.GLBreakout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,7 +449,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/lib",
+					"$(PROJECT_DIR)/GLBreakout/Library",
+				);
 				OTHER_LDFLAGS = "-lfreetype";
 				PRODUCT_BUNDLE_IDENTIFIER = YY.inc.GLBreakout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
