@@ -127,19 +127,19 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTimeSt
 
 - (void)keyUp:(NSEvent *)event {
     //NSLog(@"key up.");
-    if ([event.characters isEqualToString:@"a"]) {
+    if ([event.characters isEqualToString:@"a"] || event.keyCode == 123) {
         _keys[BCKeyA] = NO;
         _keysProcessed[BCKeyA] = NO;
     }
-    if ([event.characters isEqualToString:@"d"]) {
+    if ([event.characters isEqualToString:@"d"] || event.keyCode == 124) {
         _keys[BCKeyD] = NO;
         _keysProcessed[BCKeyD] = NO;
     }
-    if ([event.characters isEqualToString:@"w"]) {
+    if ([event.characters isEqualToString:@"w"] || event.keyCode == 126) {
         _keys[BCKeyW] = NO;
         _keysProcessed[BCKeyW] = NO;
     }
-    if ([event.characters isEqualToString:@"s"]) {
+    if ([event.characters isEqualToString:@"s"] || event.keyCode == 125) {
         _keys[BCKeyS] = NO;
         _keysProcessed[BCKeyS] = NO;
     }
@@ -156,16 +156,16 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTimeSt
 
 - (void)keyDown:(NSEvent *)event {
     //NSLog(@"key down");
-    if ([event.characters isEqualToString:@"a"]) {
+    if ([event.characters isEqualToString:@"a"] || event.keyCode == 123) {
         _keys[BCKeyA] = YES;
     }
-    if ([event.characters isEqualToString:@"d"]) {
+    if ([event.characters isEqualToString:@"d"] || event.keyCode == 124) {
         _keys[BCKeyD] = YES;
     }
-    if ([event.characters isEqualToString:@"w"]) {
+    if ([event.characters isEqualToString:@"w"] || event.keyCode == 126) {
         _keys[BCKeyW] = YES;
     }
-    if ([event.characters isEqualToString:@"s"]) {
+    if ([event.characters isEqualToString:@"s"] || event.keyCode == 125) {
         _keys[BCKeyS] = YES;
     }
     if ([event.characters isEqualToString:@" "]) {
